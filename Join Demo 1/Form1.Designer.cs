@@ -66,6 +66,7 @@
             // 
             this.dataTable1BindingSource.DataMember = "DataTable1";
             this.dataTable1BindingSource.DataSource = this.book_PublisherDataSet;
+            this.dataTable1BindingSource.CurrentChanged += new System.EventHandler(this.dataTable1BindingSource_CurrentChanged);
             // 
             // dataTable1TableAdapter
             // 
